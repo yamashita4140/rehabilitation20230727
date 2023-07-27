@@ -1,7 +1,11 @@
 # 関数
 def f(x):
-    return x * 2
+    return x + 1
 
 
-result = f(2)
-print(result)
+z = f(4)
+
+if z == 5:
+    print("z is 5")
+else:
+    print("Z is not 5")
