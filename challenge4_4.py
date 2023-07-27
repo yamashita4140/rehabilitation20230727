@@ -9,7 +9,7 @@ def func_b(num2):
 
 
 num_input = int(input("input num:"))
-result_a = func_a(num_input)
-result_b = func_b(result_a)
-print("result_a =", result_a)
+#result_a = func_a(num_input)
+result_b = func_b(func_a(num_input))
+#print("result_a =", result_a)
 print("result_b =", result_b)
