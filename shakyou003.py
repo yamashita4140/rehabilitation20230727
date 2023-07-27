@@ -1,10 +1,14 @@
 # 関数
-def even_odd(x):
-    if x % 2 == 0:
-        print("Even")
+def even_odd():
+    n=input("type a number:")
+    n=int(n)
+
+    if n % 2 == 0:
+        print("n is Even.")
     else:
-        print("Odd")
+        print("n is Odd.")
 
 
-even_odd(2)
-even_odd(5)
+even_odd()
+even_odd()
+even_odd()
