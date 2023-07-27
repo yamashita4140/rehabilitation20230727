@@ -1,11 +1,10 @@
 # 関数
-def f(x):
-    return x + 1
+def even_odd(x):
+    if x % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
 
 
-z = f(4)
-
-if z == 5:
-    print("z is 5")
-else:
-    print("Z is not 5")
+even_odd(2)
+even_odd(5)
